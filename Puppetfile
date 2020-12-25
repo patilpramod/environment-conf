@@ -15,3 +15,25 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+
+
+mod 'tomcat',
+    :git => 'git@github.com:patilpramod/tomcat.git',
+    :branch => 'development'
+
+mod 'java',
+    :git => 'git@github.com:patilpramod/java.git',
+    :branch => 'development'
+
+mod 'roles',
+    :git => 'git@github.com:patilpramod/roles.git',
+    :branch => 'development'
+
+mod 'profiles',
+    :git => 'ggit@github.com:patilpramod/profiles.git',
+    :branch: 'development'
+
+mod 'hieradata-nodes',
+    :git => 'git@github.com:patilpramod/hieradata-nodes.git',
+    :branch => 'development',
+    :install_path => 'hieradata'
