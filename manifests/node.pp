@@ -1,4 +1,4 @@
 node 'docker.localhost'{
-  include java:install
+  include java::install
   include tomcat
 }
